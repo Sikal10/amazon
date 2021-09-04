@@ -36,7 +36,7 @@ const Product = ({product}) => {
                 <p className={"text-gray-500 text-xs"}>FREE Next-day Delivery</p>
             </div>}
 
-            <button className={"mt-auto button"}>Add to Basket</button>
+            <button className={"mt-auto button font-semibold"}>Add to Basket</button>
 
         </div>
     );
