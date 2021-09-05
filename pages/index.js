@@ -1,9 +1,7 @@
 import Home from "../components/Home";
 import Title from "../components/Title";
-import ProductsFeed from "../components/ProductsFeed";
 
 export default function HomePage({products}) {
-    console.log(products)
     return (
         <div>
             <Title title={"Amazon"} />

@@ -1,7 +1,11 @@
+import {useRouter} from "next/router";
+
 const Footer = () => {
+    const router = useRouter();
+
     return (
         <>
-            <h3 className={"bg-amazon_blue-light text-white text-center p-3"}>Back to Top</h3>
+            <h3 onClick={() => router.push("/")} className={"bg-amazon_blue-light cursor-pointer text-white text-center p-3"}>Back to Top</h3>
             <section className={"bg-amazon_blue text-white grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"}>
                 <div className={"p-10 m-10"}>
                     <h4 className={"font-semibold mb-2"}>Get to know us</h4>
