@@ -1,6 +1,7 @@
 import Header from "./Header";
 import Banner from "./Banner";
 import ProductsFeed from "./ProductsFeed";
+import Footer from "./Footer";
 
 const Home = ({products}) => {
     return (
@@ -14,6 +15,8 @@ const Home = ({products}) => {
             <div className={"max-w-7xl mx-auto"}>
                 <ProductsFeed products={products} />
             </div>
+
+            <Footer />
         </div>
     );
 };
